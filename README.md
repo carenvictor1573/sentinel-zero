@@ -18,7 +18,7 @@ The system is designed to detect:
 ---
 
 ## 🏗️ Architecture
-
+```
 CloudTrail 
    ↓
 EventBridge 
@@ -30,6 +30,7 @@ DynamoDB (Storage)
 SNS (Email Alerts)
    ↓
 Streamlit Dashboard (Visualization)
+```
 
 
 ---
@@ -149,6 +150,7 @@ python -m streamlit run dashboard/dashboard_app.py
 
 ## Project Structure
 
+```
 sentinel-zero/
 │
 ├── dashboard/
@@ -159,10 +161,19 @@ sentinel-zero/
 │
 ├── docs/
 │   └── images/
+│       ├── login.png
+│       ├── dashboard.png
+│       ├── alerts.png
+│       ├── top_ips.png
+│       ├── timeline.png
+│       ├── dynamodb.png
+│       ├── lambda.png
+│       └── eventbridge.png
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ## 🚀 Future Enhancements
 🌍 Geo-mapping visualization (map-based attacks)
