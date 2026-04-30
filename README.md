@@ -201,6 +201,13 @@ This project was designed and implemented under **AWS Free Tier constraints**, e
 
 This makes the system **cost-efficient and suitable for learning and prototyping**.
 
+### 🧾 Billing Verification
+
+![AWS Billing](docs/images/billing.png)
+
+- ✅ Total cost: **$0.00**
+- ✅ Efficient use of serverless architecture
+- ✅ No idle or over-provisioned resources
 ---
 
 ### 🚀 Production-Scale Considerations
