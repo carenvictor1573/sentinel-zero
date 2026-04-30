@@ -186,6 +186,54 @@ sentinel-zero/
 
 🧠 Machine learning–based anomaly detection
 
+---
+
+## 💡 Deployment Considerations (Free Tier vs Production)
+
+### 🆓 Built Using AWS Free Tier
+
+This project was designed and implemented under **AWS Free Tier constraints**, ensuring minimal cost usage while still demonstrating a complete event-driven security monitoring system.
+
+- Low-volume event processing  
+- Minimal DynamoDB storage  
+- Limited Lambda executions  
+- Basic alerting via SNS  
+
+This makes the system **cost-efficient and suitable for learning and prototyping**.
+
+---
+
+### 🚀 Production-Scale Considerations
+
+If deployed in a real-world production environment, the system would require:
+
+#### 🔧 Scalability
+- High-frequency event handling (millions of logs)
+- Optimized Lambda concurrency and performance
+- DynamoDB scaling (on-demand or provisioned capacity)
+
+#### 💰 Cost Implications
+- Increased Lambda execution costs  
+- DynamoDB read/write throughput charges  
+- CloudWatch log storage costs  
+- SNS / notification scaling  
+
+#### 🔐 Security Enhancements
+- Integration with **AWS IAM / Cognito** for real authentication  
+- Secure API gateways  
+- Encryption and access control policies  
+
+#### 📊 Advanced Monitoring
+- Integration with **SIEM tools**
+- Real-time dashboards with streaming data
+- Alert prioritization and incident response workflows  
+
+---
+
+### 🧠 Key Takeaway
+
+This project demonstrates how a **cost-effective prototype** built within AWS Free Tier can be extended into a **scalable, production-grade security monitoring system** with the right architectural enhancements.
+
 ## 👥 Contributors
 Caren Victor and J Aesu Keerthana
 
